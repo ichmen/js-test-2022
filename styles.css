@@ -1,3 +1,9 @@
 main {
   font-size: 24px;
 }
+p {
+  color: green;
+}
+li {
+  color: orange;
+}
