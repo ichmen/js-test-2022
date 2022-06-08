@@ -13,7 +13,7 @@ a[href$='.com'] {
 a[lang|='en'] {
   font-size: 10px;
 }
-a[href~='www'] {
+a[href*='www'] {
   color: green;
 }
 [title*='popular'] {
