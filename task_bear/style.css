@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 header {
   background-color: darkturquoise;
   width: 100%;
@@ -6,16 +9,17 @@ header {
   z-index: 5;
 }
 nav {
-  /* float: left; */
   height: 40px;
+  line-height: 0px;
+  margin-top: 0px;
 }
 .nav-item {
   float: left;
   color: white;
   margin-left: 16px;
-  line-height: 3px;
-  /* display: ruby-text; */
+  line-height: 1px;
 }
+
 .nav-item::marker {
   font-size: 0;
 }
@@ -29,8 +33,9 @@ main {
   background-color: aquamarine;
   position: relative;
   left: calc(50% - 100px);
-  top: 200px;
+  top: calc(50% - 100px);
 }
+
 .ear {
   width: 40px;
   height: 60px;
@@ -60,5 +65,5 @@ main {
 }
 .eye_left {
   bottom: 40px;
-  left: 100px;
+  left: 90px;
 }
