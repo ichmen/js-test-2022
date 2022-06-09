@@ -10,19 +10,23 @@ header {
 }
 nav {
   height: 40px;
-  line-height: 0px;
-  margin-top: 0px;
+  float: left;
+}
+.nav-list {
+  margin: 0px;
 }
 .nav-item {
-  float: left;
+  display: inline-block;
+  margin: 0px;
+  text-decoration: none;
   color: white;
   margin-left: 16px;
-  line-height: 3px;
+  line-height: 40px;
 }
 
-.nav-item::marker {
+/* .nav-item::marker {
   font-size: 0;
-}
+} */
 main {
   background-color: beige;
   height: 5000px;
