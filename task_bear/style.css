@@ -53,7 +53,7 @@ main {
 }
 .eye {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   width: 30px;
   height: 30px;
   background-color: grey;
@@ -74,6 +74,6 @@ main {
   left: 40px;
 }
 .eye_left {
-  bottom: 40px;
-  left: 90px;
+  bottom: 70px;
+  left: 130px;
 }
