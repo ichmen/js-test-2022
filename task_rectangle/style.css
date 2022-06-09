@@ -1,0 +1,17 @@
+div {
+  border: 2px solid black;
+  margin: 50px;
+}
+.rect1 {
+  background-color: pink;
+  height: 100px;
+}
+.rect2 {
+  background-color: green;
+}
+.rect3 {
+  background-color: yellow;
+}
+.rect4 {
+  background-color: blue;
+}
