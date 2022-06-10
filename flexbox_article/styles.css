@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   flex-shrink: 1;
   flex-grow: 1;
+  box-sizing: border-box;
 }
 header {
   display: flex;
