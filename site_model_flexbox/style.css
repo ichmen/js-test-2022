@@ -29,11 +29,6 @@ header {
   flex-grow: 1;
   display: flex;
 }
-.news {
-  width: 200px;
-  background-color: grey;
-  flex-grow: 0;
-}
 .section {
   display: flex;
   background-color: pink;
@@ -41,17 +36,22 @@ header {
   align-items: center;
   justify-content: center;
 }
+.footer_text {
+  margin: auto;
+}
+.news {
+  width: 200px;
+  background-color: grey;
+  flex-grow: 0;
+}
+
 .news-list {
   line-height: 40px;
 }
 .news-item {
   margin-left: 16px;
 }
-.footer_text {
-  margin: auto;
-}
+
 .paragraf {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
