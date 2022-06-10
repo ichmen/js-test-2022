@@ -1,0 +1,57 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+ul {
+  padding: 0px;
+  list-style: none;
+}
+header {
+  display: flex;
+  height: 40px;
+  background-color: yellow;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 16px;
+}
+.footer {
+  height: 40px;
+  background-color: green;
+  display: flex;
+}
+.main {
+  flex-shrink: 1;
+  flex-grow: 1;
+  display: flex;
+}
+.news {
+  width: 200px;
+  background-color: grey;
+  flex-grow: 0;
+}
+.section {
+  display: flex;
+  background-color: pink;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+.news-list {
+  line-height: 40px;
+}
+.news-item {
+  margin-left: 16px;
+}
+.footer_text {
+  margin: auto;
+}
+.paragraf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
