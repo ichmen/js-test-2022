@@ -16,17 +16,27 @@ nav {
   margin: 0px;
   display: block;
   position: relative;
+  float: left;
+  list-style: none;
 }
-.nav-item {
+/* .nav-item {
   display: inline-block;
   position: relative;
   margin: 0px;
   color: white;
-  margin-right: -5.3px;
+  margin-left: 0px;
+  line-height: 40px;
+  border: 1px solid black;
+} */
+.nav-item {
+  position: relative;
+  color: white;
+  margin: 0px;
+  float: left;
+  color: white;
   margin-left: 16px;
   line-height: 40px;
 }
-
 main {
   background-color: beige;
   height: 5000px;
