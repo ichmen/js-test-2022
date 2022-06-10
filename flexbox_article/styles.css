@@ -1,0 +1,18 @@
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
