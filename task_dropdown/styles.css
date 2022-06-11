@@ -12,7 +12,7 @@
   color: white;
   cursor: pointer;
 }
-.menu-button:hover + .menu-list {
+.dropdown:hover .menu-list {
   display: block;
 }
 .menu-button:hover {
