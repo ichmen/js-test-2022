@@ -7,6 +7,7 @@
   min-width: 125px;
   width: 125px;
   margin: 16px;
+  text-underline-offset: 2px;
   text-decoration: underline 1px dotted black;
 }
 .tooltip {
@@ -15,7 +16,7 @@
   position: relative;
   bottom: calc(-40px + 16px + 22px);
 
-  text-decoration: none;
+  /* text-decoration: none; */
   background-color: gray;
   color: white;
   border-radius: 4px;
