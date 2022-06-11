@@ -2,15 +2,18 @@
   box-sizing: border-box;
 }
 .text {
-  /* display: inline-block; */
-  width: 100px;
+  position: absolute;
+  display: inline-block;
+  min-width: 125px;
+  width: 125px;
   margin: 16px;
   text-decoration: underline 1px dotted black;
 }
 .tooltip {
   display: none;
   position: relative;
-  bottom: -40px;
+  bottom: -18px;
+
   text-decoration: none;
   background-color: gray;
   color: white;
