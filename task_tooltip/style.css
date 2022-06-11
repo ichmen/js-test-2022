@@ -11,7 +11,7 @@
 } */
 .text {
   display: inline-block;
-  position: absolute;
+  position: relative;
   min-width: 125px;
   width: 125px;
   margin: 16px;
@@ -20,8 +20,9 @@
 .tooltip {
   /* display: none; */
   display: inline-block;
-  position: relative;
-  bottom: calc(-40px + 22px + 8px);
+  position: absolute;
+  bottom: -40px;
+  left: 0px;
   background-color: gray;
   color: white;
   border-radius: 4px;
