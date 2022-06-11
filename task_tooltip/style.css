@@ -18,8 +18,8 @@
   text-decoration: underline 1px dotted black;
 }
 .tooltip {
-  /* display: none; */
-  display: inline-block;
+  display: none;
+  /* display: inline-block; */
   position: absolute;
   bottom: -40px;
   left: 0px;
@@ -29,5 +29,5 @@
   padding: 8px;
 }
 .text:hover .tooltip {
-  /* display: inline-block; */
+  display: inline-block;
 }
