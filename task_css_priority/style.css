@@ -1,22 +1,16 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 html {
   font-size: 18px;
-  /* line-height: 0; */
 }
-ul {
-  margin: 0;
+.properties-list {
+  /* margin: 0; */
   list-style: none;
-  line-height: 0;
-}
-h1 {
-  line-height: 0;
 }
 .properties-list__item {
+  color: #f39;
   font-size: 24px;
   line-height: 32px;
   padding: 8px;
-
-  color: #f39;
 }
