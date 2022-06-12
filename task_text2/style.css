@@ -8,8 +8,8 @@ header {
   /* width: 50vw; */
   /* overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
-  text-align: center; */
+  text-overflow: ellipsis; */
+  text-align: center;
 }
 h1 {
   width: 50vw;
