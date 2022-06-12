@@ -2,11 +2,18 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, sans-serif;
 }
-h1 {
+header {
   font-size: 74px;
   width: 50vw;
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center; */
+}
+h1 {
+  margin: 0;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
