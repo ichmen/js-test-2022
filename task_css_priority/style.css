@@ -7,7 +7,7 @@ html {
 }
 ul {
   margin: 0;
-  line-height: 0;
+  list-style: none;
 }
 .properties-list__item {
   font-size: 24px;
