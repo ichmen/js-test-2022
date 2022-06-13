@@ -14,7 +14,7 @@ input[type='checkbox'] {
   visibility: hidden;
 }
 .checkmark {
-  display: block;
+  display: inline-block;
   position: absolute;
   width: 25px;
   height: 25px;
