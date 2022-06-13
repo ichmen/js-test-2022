@@ -4,6 +4,7 @@
 
 input[type='checkbox'] {
   visibility: hidden;
+  margin: 2.5;
   /* width: 0;
   height: 0; */
 }
