@@ -19,7 +19,7 @@ input[type='checkbox'] {
 
 .checkmark {
   display: inline-block;
-  /* margin: 5px; */
+  margin: auto;
   position: absolute;
   width: 25px;
   height: 25px;
