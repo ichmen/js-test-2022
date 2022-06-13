@@ -4,9 +4,8 @@
 
 input[type='checkbox'] {
   visibility: hidden;
-  margin: 2.5;
-  /* width: 0;
-  height: 0; */
+  width: 0;
+  height: 0;
 }
 .checkbox {
   display: inline-block;
@@ -18,7 +17,6 @@ input[type='checkbox'] {
 
 .checkmark {
   display: block;
-  /* margin: auto; */
   position: absolute;
   width: 25px;
   height: 25px;
