@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin-left: -8px;
+}
 input[type='checkbox'] {
   visibility: hidden;
   display: block;
