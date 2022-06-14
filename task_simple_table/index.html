@@ -12,20 +12,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <table>
+      <caption>
+        Shopping list
+      </caption>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Amount</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
       <tbody>
-          <caption>Shopping list</caption>
-        <thead>
-          <tr>
-            <th>Product</th>
-            <th>Amount</th>
-            <th>Price</th>
-            <th>Subtotal</th>
-          </tr>
-        </thead>
         <tr>
           <td>Milk</td>
           <td>3</td>
@@ -44,13 +46,13 @@
           <td>$10</td>
           <td>$50</td>
         </tr>
-        <tfoot>
-         <tr>
+      </tbody>
+      <tfoot>
+        <tr>
           <td colspan="3">Total</td>
           <td>$60</td>
         </tr>
-        </tfoot>
-      </tbody>
+      </tfoot>
     </table>
   </body>
 </html>
