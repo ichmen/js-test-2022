@@ -17,12 +17,14 @@ td {
 tr:nth-child(n + 2):nth-child(-n + 9):nth-child(odd)
   td:nth-child(-n + 9):nth-child(n + 2):nth-child(even) {
   background-color: black;
+  border-top: 1px solid black;
 }
 tr:nth-child(n + 2):nth-child(-n + 9):nth-child(even)
   td:nth-child(-n + 9):nth-child(n + 2):nth-child(odd) {
   background-color: black;
+  border-top: 1px solid black;
 }
-tr:nth-child(1) td:nth-child(-n + 9):nth-child(n + 2) {
+/* tr:nth-child(1) td:nth-child(-n + 9):nth-child(n + 2) {
   border-bottom: 1px solid black;
 }
 tr:nth-child(10) td:nth-child(-n + 9):nth-child(n + 2) {
@@ -33,7 +35,7 @@ tr:nth-child(n + 2):nth-child(-n + 9) td:nth-child(1) {
 }
 tr:nth-child(n + 2):nth-child(-n + 9) td:nth-child(10) {
   border-left: 1px solid black;
-}
+} */
 
 /* tr:nth-child(odd) td:nth-child(even) {
   background-color: black;
