@@ -1,0 +1,28 @@
+button {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  align-items: center;
+}
+button:hover {
+  color: darkcyan;
+}
+img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+.bird-button:hover > .icon {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
