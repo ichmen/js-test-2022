@@ -6,10 +6,7 @@ table {
   border: 1px solid black;
   margin: 16px;
 }
-table table {
-  margin: 0;
-  box-sizing: content-box;
-}
+
 td {
   width: 50px;
   height: 50px;
@@ -17,17 +14,35 @@ td {
   text-align: center;
   padding: 0;
 }
-table table td {
-  border: none;
-  border-spacing: 0;
-  padding: 0;
-}
-table table tr:nth-child(odd) td:nth-child(even) {
+tr:nth-child(n + 2):nth-child(-n + 9):nth-child(odd)
+  td:nth-child(-n + 9):nth-child(n + 2):nth-child(even) {
   background-color: black;
 }
-table table tr:nth-child(even) td:nth-child(odd) {
+tr:nth-child(n + 2):nth-child(-n + 9):nth-child(even)
+  td:nth-child(-n + 9):nth-child(n + 2):nth-child(odd) {
   background-color: black;
 }
-table table {
-  border: 1px solid black;
+tr:nth-child(1) td:nth-child(-n + 9):nth-child(n + 2) {
+  border-bottom: 1px solid black;
 }
+tr:nth-child(10) td:nth-child(-n + 9):nth-child(n + 2) {
+  border-top: 1px solid black;
+}
+tr:nth-child(n + 2):nth-child(-n + 9) td:nth-child(1) {
+  border-right: 1px solid black;
+}
+tr:nth-child(n + 2):nth-child(-n + 9) td:nth-child(10) {
+  border-left: 1px solid black;
+}
+
+/* tr:nth-child(odd) td:nth-child(even) {
+  background-color: black;
+}
+tr:nth-child(even) td:nth-child(odd) {
+  background-color: black;
+}
+tr:nth-child(1) td:nth-of-type(n),
+tr:nth-child(10) td:nth-of-type(n) {
+  background-color: white;
+  border: 1px 0 solid black;
+} */
