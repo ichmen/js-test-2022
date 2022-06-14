@@ -8,7 +8,7 @@ input[type='checkbox'] {
   height: 0;
 }
 .checkbox {
-  display: inline-block;
+  display: flex;
   position: relative;
   font-size: 24px;
   padding-left: 35px;
