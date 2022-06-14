@@ -16,3 +16,6 @@
   flex-direction: column;
   flex: 1;
 }
+.column:first-child > .small-bird {
+  border: 1px solid black;
+}
