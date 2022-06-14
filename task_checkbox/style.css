@@ -1,6 +1,6 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 .checkbox {
   display: inline-block;
@@ -10,13 +10,18 @@
   font-size: 24px;
   cursor: pointer;
 }
-input[type='checkbox'] {
+/* input[type='checkbox'] {
+  visibility: hidden;
+  width: 8px; working
+  height: 0;
+  width: 0;
+} */
+.checkbox input {
   visibility: hidden;
   /* width: 8px; working*/
   height: 0;
   width: 0;
 }
-
 .checkmark {
   /* margin: auto; */
   position: absolute;
