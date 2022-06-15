@@ -13,7 +13,7 @@
   height: 100px;
   line-height: 100px;
   transition-property: width, opacity;
-  transition-duration: 1s, 0.5s;
+  transition-duration: 2s, 0.5s;
 }
 .rect:hover {
   width: 100%;
