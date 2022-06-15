@@ -17,14 +17,11 @@ button {
 button:hover {
   color: darkcyan;
 }
-.bird-icon {
+svg {
   width: 32px;
   height: 32px;
   vertical-align: middle;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(228deg)
-    brightness(103%) contrast(103%);
 }
 .bird-icon:hover {
-  filter: invert(27%) sepia(72%) saturate(2000%) hue-rotate(94deg)
-    brightness(94%) contrast(102%);
+  fill: green;
 }
