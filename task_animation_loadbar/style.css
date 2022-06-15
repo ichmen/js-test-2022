@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  position: relative;
+}
+.spinner-text {
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation: blinking;
+  animation-duration: 2s; */
+  animation-timing-function: linear;
+}
+.rect {
+  position: absolute;
+  width: 10px;
+  height: 4px;
+  background-color: black;
+  border-radius: 2px;
+  animation: moving, blinking;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
