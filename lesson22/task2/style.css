@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+.square {
+  height: 200px;
+  display: flex;
+  flex: 1;
+}
+.navigation {
+  background-color: #ff7f50;
+}
+.products {
+  background-color: #006500;
+}
+.news {
+  background-color: #0ff;
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .container {
+    display: flex;
+    /* flex-direction: row; */
+  }
+}
+@media screen and (min-width: 900px) {
+  .container,
+  .content {
+    display: flex;
+    flex: 1;
+
+    /* flex-direction: row; */
+  }
+  .container {
+    flex: 2;
+  }
+}
