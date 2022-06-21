@@ -1,0 +1,33 @@
+@import "variables.scss";
+@import "layouts.scss";
+
+@mixin display-sm {
+  @media screen and (max-width: ($sm - 1px)) {
+    @content;
+  }
+}
+@mixin display-md {
+  @media screen and (min-width: $sm) and (max-width: ($md - 1px)) {
+    @content;
+  }
+}
+@mixin display-lg {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+.container {
+  @include display-md {
+    display: flex;
+  }
+  @include display-lg {
+    display: flex;
+    flex: 2;
+  }
+}
+.content {
+  @include display-lg {
+    display: flex;
+    flex: 1;
+  }
+}

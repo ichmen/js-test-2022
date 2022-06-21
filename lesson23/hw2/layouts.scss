@@ -1,0 +1,32 @@
+.square {
+  height: 200px;
+  display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  flex: 1;
+}
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+.navigation {
+  background-color: #ff7f50;
+}
+.products {
+  background-color: #006400;
+}
+.news {
+  background-color: #0ff;
+}
+// .container {
+//   display: flex;
+//   flex: 1;
+//   //   height: auto;
+// }
+// .content {
+//   display: flex;
+// }
