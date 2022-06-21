@@ -23,8 +23,7 @@ body {
   cursor: pointer;
 }
 .menu__item-text {
-  padding: 8px;
-  margin: 0 8px;
+  padding: 0 8px;
 }
 .menu__item-text:hover {
   background-color: #9acd32;

@@ -17,8 +17,8 @@ body {
   color: white;
   cursor: pointer;
   &__item-text {
-    padding: 8px;
-    margin: 0 8px;
+    padding: 0 8px;
+    // margin: 0 8px;
     &:hover {
       background-color: #9acd32;
     }
