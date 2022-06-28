@@ -17,10 +17,10 @@ const customers = {
     age: 20,
   },
 };
-const getCustomersList = (obj) => {
-  let newObj = Object.assign({}, obj);
+const getCustomersList = (obj) =>
+  // let newObj = Object.assign({}, obj);
   // eslint-disable-next-line prefer-const
-  let a = Object.entries(newObj)
+  Object.entries(Object.assign({}, obj))
     .map((elem) => {
       let workObj = { ...elem[1] };
       workObj.id = elem[0];
@@ -28,7 +28,18 @@ const getCustomersList = (obj) => {
     })
     .flat()
     .sort((a, b) => a.age - b.age);
-  return a;
-};
+// const getCustomersList = (obj) => {
+//   let newObj = Object.assign({}, obj);
+//   // eslint-disable-next-line prefer-const
+//   let a = Object.entries(newObj)
+//     .map((elem) => {
+//       let workObj = { ...elem[1] };
+//       workObj.id = elem[0];
+//       return workObj;
+//     })
+//     .flat()
+//     .sort((a, b) => a.age - b.age);
+//   return a;
+// };
 // eslint-disable-next-line no-unused-expressions
 // objEntries.flat(1);
